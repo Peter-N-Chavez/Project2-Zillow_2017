@@ -4,9 +4,10 @@
 ## <a name="project_description"></a>Project Description:
 The purpose of this project is to aquire tax data from the year 2017 from a Zillow database, create a model to predict the tax value on future house sales of Single Family properties, and utilize that model to make predictions from a group of unknown house sales.
 
-Goals:  Create a model that can predict the tax evaluation with greater accuracy than baseline.
+Goals: 
+ - Create a model that can predict the tax evaluation with greater accuracy than baseline.
 
-        Avoid unrelated correlations and find useful drivers for the model, and then make recommendations to improve the model.
+ - Avoid unrelated correlations and find useful drivers for the model, and then make recommendations to improve the model.
 
 
 ## <a name="planning"></a>Project Planning: 
@@ -31,7 +32,7 @@ Goals:  Create a model that can predict the tax evaluation with greater accuracy
 ---
 | Feature | Definition | Data Type |
 | ----- | ----- | ----- |
-| fips | A code used to identify the region the sale of the porperty occured down to the county. | |
+| fips | A code used to identify the region the sale of the property occured down to the county. | |
 | | https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt | int |
 | parcelid | A unique code used to identify the specific property in the transaction. | int |
 | bedroomcnt | The number of bedrooms in the home. | float |
