@@ -1,3 +1,9 @@
 
 Trash.ipynb
 env.py
+zillow_predictions.csv
+__pycache__/env.cpython-39.pyc
+__pycache__/explore2.cpython-39.pyc
+__pycache__/modeling2.cpython-39.pyc
+__pycache__/wrangle2.cpython-39.pyc
+explore2.ipynb
